@@ -1,0 +1,747 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\CRG\Diageo\Track 3\final.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>final.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Observation" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Code" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Description" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT_Fruit-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Esters-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="_Dried_Fruit-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Brown spices No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT_Vanilla-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT_Wood-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="New_Wood-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Aged_Wood-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT_Smoky-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT_Rubber-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT_Sugars-_No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Caramel_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Brown_Sugar-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT Floral No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT__Green_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Hay/Tea-No_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT_Dry_Fragant-_Pa_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Sweet_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Bitter_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Sour_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Alcoholic_strength_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Viscous_rating" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\harsh\AppData\Local\Temp\Alteryx\Engine_18168_615b79b978bb5649be53eaeaa7112c72_\Engine_18168_cb068e2130f7b948a313436e881b2bb0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerImage.PortfolioComposerImage">
+        <Position x="426" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ImageMode>File</ImageMode>
+          <Filename>D:\CRG\Diageo\radar_plot.png</Filename>
+          <ModifyFilename value="False" />
+          <StopIfNotFound value="True" />
+          <ImageStyle FixedWidth="false" ImageWidth="200" ShowBorder="false" BorderWidth="1" BorderColor="#000000" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerImagePlugin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\harsh\AppData\Local\Temp\Alteryx\Engine_18168_615b79b978bb5649be53eaeaa7112c72_\Engine_18168_e86df8900a56a94da3146fd9fb42227c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\harsh\AppData\Local\Temp\Alteryx\Engine_18168_615b79b978bb5649be53eaeaa7112c72_\Engine_18168_b5d69b741964d046b9d8a1957c6908c0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerImage.PortfolioComposerImage">
+        <Position x="426" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ImageMode>File</ImageMode>
+          <Filename>D:\CRG\Diageo\plot.png</Filename>
+          <ModifyFilename value="False" />
+          <StopIfNotFound value="True" />
+          <ImageStyle FixedWidth="false" ImageWidth="200" ShowBorder="false" BorderWidth="1" BorderColor="#000000" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerImagePlugin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerImage.PortfolioComposerImage">
+        <Position x="426" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ImageMode>File</ImageMode>
+          <Filename>D:\CRG\Diageo\3d_cluster_plot.png</Filename>
+          <ModifyFilename value="False" />
+          <StopIfNotFound value="True" />
+          <ImageStyle FixedWidth="false" ImageWidth="200" ShowBorder="false" BorderWidth="1" BorderColor="#000000" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerImagePlugin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\harsh\AppData\Local\Temp\Alteryx\Engine_18168_615b79b978bb5649be53eaeaa7112c72_\Engine_18168_8d4b5ab27d329c4c89a4fed2d24a87f3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="306" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <WorkflowName>c:\users\harsh\downloads\clustering workflow.yxmd</WorkflowName>
+          <JupyterProduction>false</JupyterProduction>
+          <vEnvName>designerbasetools_venv</vEnvName>
+          <DefaultVenv>1</DefaultVenv>
+          <productionModeScript />
+          <Port>61275</Port>
+          <JupyterGuidDir>791f75f72cdd189a90b6d9ce3287faf1</JupyterGuidDir>
+          <JupyterGuidCopy />
+          <LastExecutedByEngineVersion>2024.1.1.17</LastExecutedByEngineVersion>
+          <Notebook><![CDATA[{"cells":[{"cell_type":"markdown","metadata":{"ayx":{"cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","contents_keyword":"Alteryx.help()","label":"info"}},"source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"cell_type":"code","execution_count":1,"metadata":{"ayx":{"cell_css":"border: 1px solid #58a; margin: 2px;","contents_keyword":"installPackages","label":"deps"},"execution":{"iopub.execute_input":"2024-12-23T05:50:43.296727Z","iopub.status.busy":"2024-12-23T05:50:43.296727Z","iopub.status.idle":"2024-12-23T05:50:43.308738Z","shell.execute_reply":"2024-12-23T05:50:43.307741Z"}},"outputs":[],"source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","from ayx import Package\n","#Package.installPackages(['pandas','numpy'])\n"]},{"cell_type":"code","execution_count":2,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:43.312740Z","iopub.status.busy":"2024-12-23T05:50:43.311741Z","iopub.status.idle":"2024-12-23T05:50:45.058006Z","shell.execute_reply":"2024-12-23T05:50:45.057006Z"}},"outputs":[],"source":["from ayx import Alteryx\n"]},{"cell_type":"code","execution_count":3,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:45.061511Z","iopub.status.busy":"2024-12-23T05:50:45.061511Z","iopub.status.idle":"2024-12-23T05:50:48.224772Z","shell.execute_reply":"2024-12-23T05:50:48.223769Z"},"scrolled":true},"outputs":[],"source":["import pandas as pd\n","pd.set_option(\"display.max_columns\", None)\n","df= Alteryx.read(\"#1\")\n","from sklearn.preprocessing import StandardScaler\n","from sklearn.cluster import KMeans\n","from sklearn.metrics import silhouette_score\n","import matplotlib.pyplot as plt\n","\n","# Step 1: Drop non-numerical columns\n","data_numeric = df.drop(columns=[\"Name\",\"Observation\",\"Rating\",\"Description\",\"Code\"])"]},{"cell_type":"code","execution_count":4,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:48.228771Z","iopub.status.busy":"2024-12-23T05:50:48.227772Z","iopub.status.idle":"2024-12-23T05:50:48.272856Z","shell.execute_reply":"2024-12-23T05:50:48.271864Z"},"scrolled":true},"outputs":[],"source":["data_numeric"]},{"cell_type":"code","execution_count":5,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:48.276859Z","iopub.status.busy":"2024-12-23T05:50:48.276859Z","iopub.status.idle":"2024-12-23T05:50:48.288389Z","shell.execute_reply":"2024-12-23T05:50:48.287379Z"}},"outputs":[],"source":["# Step 2: Normalize the data\n","scaler = StandardScaler()\n","data_scaled = scaler.fit_transform(data_numeric)"]},{"cell_type":"code","execution_count":6,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:48.292396Z","iopub.status.busy":"2024-12-23T05:50:48.291390Z","iopub.status.idle":"2024-12-23T05:50:48.816811Z","shell.execute_reply":"2024-12-23T05:50:48.815829Z"},"scrolled":true},"outputs":[],"source":["# Step 3: Determine optimal number of clusters using Elbow Method\n","inertia = []\n","cluster_range = range(2, 11)\n","\n","for k in cluster_range:\n","    kmeans = KMeans(n_clusters=k, random_state=42)\n","    kmeans.fit(data_scaled)\n","    inertia.append(kmeans.inertia_)\n","    \n","# Plot the Elbow curve\n","plt.figure(figsize=(8, 5))\n","plt.plot(cluster_range, inertia, marker='o', linestyle='--')\n","plt.title(\"Elbow Method for Optimal Clusters\")\n","plt.xlabel(\"Number of Clusters\")\n","plt.ylabel(\"Inertia\")\n","plt.xticks(cluster_range)\n","plt.grid()\n","\n","# Save the plot\n","chart_path = r'D:\\CRG\\Diageo\\plot.png'\n","chart_path = chart_path.replace('\\\\', '/')\n","print(chart_path)\n","\n","# Save the figure using plt\n","plt.savefig(chart_path)\n","\n","# Show the plot (optional)\n","plt.show()\n","\n","# Write file path and file name as a dataframe to output anchor #1\n","# Dataframe will have one column, chart_path, with type V_WString and length 999,999\n","Alteryx.write(pd.DataFrame([chart_path], columns=['chart_path']), 1, \n","              {'chart_path': {'type': 'V_WString', 'length': 999999}})\n"]},{"cell_type":"code","execution_count":7,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:48.820818Z","iopub.status.busy":"2024-12-23T05:50:48.819811Z","iopub.status.idle":"2024-12-23T05:50:51.897145Z","shell.execute_reply":"2024-12-23T05:50:51.896157Z"}},"outputs":[],"source":["silhouette_scores = {}\n","\n","for k in cluster_range:\n","    kmeans = KMeans(n_clusters=k, random_state=42)\n","    labels = kmeans.fit_predict(data_scaled)\n","    score = silhouette_score(data_scaled, labels)\n","    silhouette_scores[k] = score\n","\n","# Step 3: Prepare Output\n","# Convert silhouette scores to a DataFrame\n","silhouette_df = pd.DataFrame(list(silhouette_scores.items()), columns=['Number of Clusters', 'Silhouette Score'])\n","\n","# Step 4: Send Output to Alteryx\n","output = silhouette_df  "]},{"cell_type":"code","execution_count":8,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:51.900155Z","iopub.status.busy":"2024-12-23T05:50:51.900155Z","iopub.status.idle":"2024-12-23T05:50:51.912156Z","shell.execute_reply":"2024-12-23T05:50:51.911151Z"}},"outputs":[],"source":["output"]},{"cell_type":"code","execution_count":9,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:51.916154Z","iopub.status.busy":"2024-12-23T05:50:51.916154Z","iopub.status.idle":"2024-12-23T05:50:51.943213Z","shell.execute_reply":"2024-12-23T05:50:51.942196Z"}},"outputs":[],"source":["Alteryx.write(output,2)"]},{"cell_type":"code","execution_count":10,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:51.947311Z","iopub.status.busy":"2024-12-23T05:50:51.947311Z","iopub.status.idle":"2024-12-23T05:50:51.989837Z","shell.execute_reply":"2024-12-23T05:50:51.988849Z"}},"outputs":[],"source":["# Step 5: Perform K-Means clustering with 4 clusters\n","kmeans = KMeans(n_clusters=4, random_state=42)\n","df['Cluster'] = kmeans.fit_predict(data_scaled)\n","\n","# Step 8: Plot 3D the clusters\n","from sklearn.decomposition import PCA\n","import matplotlib.pyplot as plt\n","\n","# Apply PCA to reduce dimensions to 3\n","pca = PCA(n_components=3)\n","data_pca = pca.fit_transform(data_scaled)\n","pca.fit_transform(data_scaled)"]},{"cell_type":"code","execution_count":11,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:51.993850Z","iopub.status.busy":"2024-12-23T05:50:51.993850Z","iopub.status.idle":"2024-12-23T05:50:52.590848Z","shell.execute_reply":"2024-12-23T05:50:52.589850Z"}},"outputs":[],"source":["# Step 5: Perform K-Means clustering with 4 clusters\n","kmeans = KMeans(n_clusters=4, random_state=42)\n","df['Cluster'] = kmeans.fit_predict(data_scaled)\n","\n","# Step 8: Plot 3D the clusters\n","from sklearn.decomposition import PCA\n","import matplotlib.pyplot as plt\n","\n","# Apply PCA to reduce dimensions to 3\n","pca = PCA(n_components=3)\n","data_pca = pca.fit_transform(data_scaled)\n","\n","# Create 3D plot\n","fig = plt.figure(figsize=(10, 8))\n","ax = fig.add_subplot(111, projection='3d')\n","\n","for cluster in range(4):\n","    cluster_points = data_pca[df['Cluster'] == cluster]\n","    ax.scatter(cluster_points[:, 0], cluster_points[:, 1], cluster_points[:, 2], label=f'Cluster {cluster}', alpha=0.7)\n","\n","# Set plot titles and labels\n","ax.set_title(\"3D Cluster Visualization (PCA-Reduced Data, 4 Clusters)\")\n","ax.set_xlabel(\"PCA Component 1\")\n","ax.set_ylabel(\"PCA Component 2\")\n","ax.set_zlabel(\"PCA Component 3\")\n","ax.legend()\n","\n","# Save the plot\n","chart_path = r'D:\\CRG\\Diageo\\3d_cluster_plot.png'\n","chart_path = chart_path.replace('\\\\', '/')\n","print(chart_path)\n","\n","# Save the figure using `fig.savefig`\n","fig.savefig(chart_path)\n","\n","# Show the plot (optional)\n","plt.show()\n","\n","# Write file path and file name as a dataframe to output anchor #1\n","# Dataframe will have one column, chart_path, with type V_WString and length 999,999\n","Alteryx.write(pd.DataFrame([chart_path], columns=['chart_path']), 3, \n","              {'chart_path': {'type': 'V_WString', 'length': 999999}})\n"]},{"cell_type":"code","execution_count":12,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:52.595861Z","iopub.status.busy":"2024-12-23T05:50:52.594852Z","iopub.status.idle":"2024-12-23T05:50:52.605872Z","shell.execute_reply":"2024-12-23T05:50:52.604871Z"}},"outputs":[],"source":["centroids = kmeans.cluster_centers_\n","\n","# Step 4: Convert Centroids to a DataFrame\n","centroids_df_4 = pd.DataFrame(centroids, columns=data_numeric.columns)\n","\n","# Step 5: Assign Each Feature to a Cluster\n","# Determine the cluster assignment for each feature by finding the maximum absolute value in centroids\n","cluster_assignment = centroids_df_4.abs().idxmax(axis=0)\n","cluster_assignment = pd.DataFrame(cluster_assignment, columns=[\"Assigned Cluster\"])\n"," "]},{"cell_type":"code","execution_count":13,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:52.608870Z","iopub.status.busy":"2024-12-23T05:50:52.608870Z","iopub.status.idle":"2024-12-23T05:50:52.621386Z","shell.execute_reply":"2024-12-23T05:50:52.620364Z"}},"outputs":[],"source":["cluster_assignment = cluster_assignment.reset_index()\n","\n"]},{"cell_type":"code","execution_count":14,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:52.626384Z","iopub.status.busy":"2024-12-23T05:50:52.625381Z","iopub.status.idle":"2024-12-23T05:50:52.653381Z","shell.execute_reply":"2024-12-23T05:50:52.652372Z"}},"outputs":[],"source":["df"]},{"cell_type":"code","execution_count":15,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:52.657400Z","iopub.status.busy":"2024-12-23T05:50:52.656399Z","iopub.status.idle":"2024-12-23T05:50:52.669211Z","shell.execute_reply":"2024-12-23T05:50:52.668215Z"}},"outputs":[],"source":["import matplotlib.pyplot as plt\n","from math import pi\n","\n","radar_data_numeric = df.drop(columns=['Name', 'Rating', 'Observation','Code','Description'])\n","\n"]},{"cell_type":"code","execution_count":16,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:52.672720Z","iopub.status.busy":"2024-12-23T05:50:52.672720Z","iopub.status.idle":"2024-12-23T05:50:53.109551Z","shell.execute_reply":"2024-12-23T05:50:53.107467Z"},"scrolled":true},"outputs":[],"source":["# Explicitly convert the columns to numeric (if not already)\n","radar_data_numeric = radar_data_numeric.apply(pd.to_numeric, errors='coerce')\n","\n","# Group by 'Cluster' and calculate the mean of all numeric columns\n","cluster_avg = radar_data_numeric.groupby(\"Cluster\").mean().reset_index()\n","\n","# Define the categories (features to plot)\n","categories = cluster_avg.columns[1:].tolist()  # Exclude 'Cluster' column\n","\n","# Prepare values for plotting (ensure to append the first value again for closing the radar chart)\n","values_cluster_1 = cluster_avg.iloc[0, 1:].tolist()  # Get values for cluster 1\n","values_cluster_1.append(values_cluster_1[0])  # Append the first value to close the plot\n","\n","# Number of categories\n","num_vars = len(categories)\n","\n","# Compute the angles for the radar chart\n","angles = [n / float(num_vars) * 2 * pi for n in range(num_vars)]\n","\n","# Append the first angle to close the radar chart\n","angles.append(angles[0])\n","\n","# Initialize the radar chart\n","fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))\n","\n","# Plot Cluster 1\n","ax.plot(angles, values_cluster_1, linewidth=2, linestyle='solid', label=\"Cluster 1\", color='blue')\n","ax.fill(angles, values_cluster_1, alpha=0.25, color='blue')\n","\n","# Add labels and title\n","ax.set_xticks(angles[:-1])  # Set the x-ticks to the angle values\n","ax.set_xticklabels(categories)  # Set the labels to the feature names\n","\n","plt.title(\"Flavor Profile for Cluster 1\", size=16, y=1.1)\n","plt.legend(loc=\"upper right\", bbox_to_anchor=(0.1, 0.1))\n","\n","# Save the plot\n","chart_path = r'D:\\CRG\\Diageo\\radar_plot.png'\n","chart_path = chart_path.replace('\\\\', '/')\n","print(chart_path)\n","\n","# Show the plot\n","plt.show()\n","\n","\n","# Save the figure using `fig.savefig`\n","fig.savefig(chart_path)\n","\n","# Dataframe will have one column, chart_path, with type V_WString and length 999,999\n","Alteryx.write(pd.DataFrame([chart_path], columns=['chart_path']),5, \n","              {'chart_path': {'type': 'V_WString', 'length': 999999}})\n","\n","\n"]},{"cell_type":"code","execution_count":17,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:53.113546Z","iopub.status.busy":"2024-12-23T05:50:53.112543Z","iopub.status.idle":"2024-12-23T05:50:53.123890Z","shell.execute_reply":"2024-12-23T05:50:53.122899Z"}},"outputs":[],"source":["df1=df.iloc[:,1:3]\n","df1"]},{"cell_type":"code","execution_count":18,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:53.127888Z","iopub.status.busy":"2024-12-23T05:50:53.127888Z","iopub.status.idle":"2024-12-23T05:50:53.782633Z","shell.execute_reply":"2024-12-23T05:50:53.781640Z"}},"outputs":[],"source":["import pandas as pd\n","import matplotlib.pyplot as plt\n","import seaborn as sns\n","\n","\n","# Calculate the average rating for each product\n","average_ratings = df1.groupby('Name')['Rating'].mean().sort_values(ascending=False)\n","\n","# Get the product rating gap (max - min rating)\n","rating_gap = average_ratings.max() - average_ratings.min()\n","\n","# Create the bar chart with values for all bars\n","fig=plt.figure(figsize=(10, 8))\n","sns.barplot(x=average_ratings.values, y=average_ratings.index, palette=\"Greens_r\")\n","\n","# Add values to each bar\n","for index, value in enumerate(average_ratings.values):\n","    plt.text(value + 0.02, index, f\"{value:.2f}\", va='center', fontsize=9)\n","\n","# Highlight the top-rated product\n","top_product = average_ratings.idxmax()\n","top_rating = average_ratings.max()\n","plt.barh(y=0, width=top_rating, color=\"gold\", edgecolor=\"black\", label=f\"Top Product: {top_product}\")\n","\n","# Shrink the x-axis range to emphasize differences\n","plt.xlim(6.5, 8)  # Adjust range based on your data's distribution\n","\n","# Add annotations for the top product and rating gap\n","plt.text(top_rating, 0, f\"{top_rating:.2f}\", va='center', ha='left', fontsize=10, weight='bold', color='black')\n","plt.title(\"Overall Product Ratings\", fontsize=14, weight='bold')\n","plt.xlabel(\"Average Rating\", fontsize=12)\n","plt.ylabel(\"Product\", fontsize=12)\n","plt.axhline(y=0, xmin=0, xmax=1, color=\"gray\", linestyle=\"--\", linewidth=0.8)\n","\n","# Add a subtitle for rating gap\n","plt.figtext(0.5, 0.01, f\"Product Rating Gap (Max-Min): {rating_gap:.2f}\", ha=\"center\", fontsize=10)\n","\n","plt.legend(loc='lower right', fontsize=10)\n","plt.tight_layout()\n","plt.show()\n"]},{"cell_type":"code","execution_count":19,"metadata":{"execution":{"iopub.execute_input":"2024-12-23T05:50:53.786634Z","iopub.status.busy":"2024-12-23T05:50:53.785641Z","iopub.status.idle":"2024-12-23T05:50:53.937707Z","shell.execute_reply":"2024-12-23T05:50:53.936697Z"}},"outputs":[],"source":["# Save the plot\n","chart_path = r'D:\\CRG\\Diageo\\ratings.png'\n","chart_path = chart_path.replace('\\\\', '/')\n","print(chart_path)\n","\n","# Save the figure using `fig.savefig`\n","fig.savefig(chart_path)\n","\n","# Show the plot (optional)\n","plt.show()\n","\n","# Write file path and file name as a dataframe to output anchor #1\n","# Dataframe will have one column, chart_path, with type V_WString and length 999,999\n","Alteryx.write(pd.DataFrame([chart_path], columns=['chart_path']), 4, \n","              {'chart_path': {'type': 'V_WString', 'length': 999999}})\n"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":[]}],"metadata":{"kernelspec":{"display_name":"designerbasetools_venv","language":"python","name":"designerbasetools_venv"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.10.13"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output4">
+          <RecordInfo>
+            <Field name="chart_path" size="999999" source="PythonTool:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output1">
+          <RecordInfo>
+            <Field name="chart_path" size="999999" source="PythonTool:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output2">
+          <RecordInfo>
+            <Field name="Number of Clusters" source="PythonTool:" type="Int64" />
+            <Field name="Silhouette Score" source="PythonTool:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output3">
+          <RecordInfo>
+            <Field name="chart_path" size="999999" source="PythonTool:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output5">
+          <RecordInfo>
+            <Field name="chart_path" size="999999" source="PythonTool:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="198" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Observation" selected="False" />
+            <Field field="Name" selected="False" />
+            <Field field="Rating" selected="True" />
+            <Field field="Code" selected="False" />
+            <Field field="Description" selected="False" />
+            <Field field="UT_Fruit-No_rating" selected="True" />
+            <Field field="Esters-No_rating" selected="True" />
+            <Field field="_Dried_Fruit-No_rating" selected="True" />
+            <Field field="Brown spices No_rating" selected="True" />
+            <Field field="UT_Vanilla-No_rating" selected="True" />
+            <Field field="UT_Wood-No_rating" selected="True" />
+            <Field field="New_Wood-No_rating" selected="True" />
+            <Field field="Aged_Wood-No_rating" selected="True" />
+            <Field field="UT_Smoky-No_rating" selected="True" />
+            <Field field="UT_Rubber-No_rating" selected="True" />
+            <Field field="UT_Sugars-_No_rating" selected="True" />
+            <Field field="Caramel_rating" selected="True" />
+            <Field field="Brown_Sugar-No_rating" selected="True" />
+            <Field field="UT Floral No_rating" selected="True" />
+            <Field field="UT__Green_rating" selected="True" />
+            <Field field="Hay/Tea-No_rating" selected="True" />
+            <Field field="UT_Dry_Fragant-_Pa_rating" selected="True" />
+            <Field field="Sweet_rating" selected="True" />
+            <Field field="Bitter_rating" selected="True" />
+            <Field field="Sour_rating" selected="True" />
+            <Field field="Alcoholic_strength_rating" selected="True" />
+            <Field field="Viscous_rating" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Observation" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Byte" />
+            <Field name="Code" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Description" size="254" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT_Fruit-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Esters-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="_Dried_Fruit-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Brown spices No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Vanilla-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Wood-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="New_Wood-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Aged_Wood-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Smoky-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Rubber-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Sugars-_No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Caramel_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Brown_Sugar-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT Floral No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT__Green_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Hay/Tea-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Dry_Fragant-_Pa_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Sweet_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Bitter_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Sour_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Alcoholic_strength_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Viscous_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Code" selected="False" />
+            <SelectField field="Description" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings>
+        <Position x="426" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model name" />
+          <Value name="the fields">Rating + UT_Fruit-No_rating + Esters-No_rating + _Dried_Fruit-No_rating + Brown spices No_rating + UT_Vanilla-No_rating + UT_Wood-No_rating + New_Wood-No_rating + Aged_Wood-No_rating + UT_Smoky-No_rating + UT_Rubber-No_rating + UT_Sugars-_No_rating + Caramel_rating + Brown_Sugar-No_rating + UT Floral No_rating + UT__Green_rating + Hay/Tea-No_rating + UT_Dry_Fragant-_Pa_rating + Sweet_rating + Bitter_rating + Sour_rating + Alcoholic_strength_rating + Viscous_rating</Value>
+          <Value name="standardize">False</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">True</Value>
+          <Value name="k-medians">False</Value>
+          <Value name="neural gas">False</Value>
+          <Value name="num clus">4</Value>
+          <Value name="num seeds">4</Value>
+          <Value name="plot points">True</Value>
+          <Value name="plot centroids">False</Value>
+          <Value name="max comp">2</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="out" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+            <Field name="Sum_Dists" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Cluster_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\harsh\AppData\Local\Temp\Alteryx\Engine_18168_615b79b978bb5649be53eaeaa7112c72_\Engine_18168_729143caa3bec847b598c99425cb4450~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>TB</ViewMode>
+            <ViewSize value="34" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints />
+            </View2>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\harsh\AppData\Local\Temp\Alteryx\Engine_18168_615b79b978bb5649be53eaeaa7112c72_\Engine_18168_0766923efe4fd149818ae51bc6bf7b3c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="198" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Observation" selected="True" />
+            <Field field="Name" selected="True" />
+            <Field field="Rating" selected="True" />
+            <Field field="Code" selected="True" />
+            <Field field="Description" selected="True" />
+            <Field field="UT_Fruit-No_rating" selected="True" />
+            <Field field="Esters-No_rating" selected="True" />
+            <Field field="_Dried_Fruit-No_rating" selected="True" />
+            <Field field="Brown spices No_rating" selected="True" />
+            <Field field="UT_Vanilla-No_rating" selected="True" />
+            <Field field="UT_Wood-No_rating" selected="True" />
+            <Field field="New_Wood-No_rating" selected="True" />
+            <Field field="Aged_Wood-No_rating" selected="True" />
+            <Field field="UT_Smoky-No_rating" selected="True" />
+            <Field field="UT_Rubber-No_rating" selected="True" />
+            <Field field="UT_Sugars-_No_rating" selected="True" />
+            <Field field="Caramel_rating" selected="True" />
+            <Field field="Brown_Sugar-No_rating" selected="True" />
+            <Field field="UT Floral No_rating" selected="True" />
+            <Field field="UT__Green_rating" selected="True" />
+            <Field field="Hay/Tea-No_rating" selected="True" />
+            <Field field="UT_Dry_Fragant-_Pa_rating" selected="True" />
+            <Field field="Sweet_rating" selected="True" />
+            <Field field="Bitter_rating" selected="True" />
+            <Field field="Sour_rating" selected="True" />
+            <Field field="Alcoholic_strength_rating" selected="True" />
+            <Field field="Viscous_rating" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Observation" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Int16" />
+            <Field name="Name" size="20" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Byte" />
+            <Field name="Code" size="20" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="Description" size="103" source="File: D:\CRG\Diageo\Track 3\final.csv" type="V_String" />
+            <Field name="UT_Fruit-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Esters-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="_Dried_Fruit-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Brown spices No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Vanilla-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Wood-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="New_Wood-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Aged_Wood-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Smoky-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Rubber-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Sugars-_No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Caramel_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Brown_Sugar-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT Floral No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT__Green_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Hay/Tea-No_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="UT_Dry_Fragant-_Pa_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Sweet_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Bitter_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Sour_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Alcoholic_strength_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+            <Field name="Viscous_rating" source="File: D:\CRG\Diageo\Track 3\final.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerImage.PortfolioComposerImage">
+        <Position x="426" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ImageMode>File</ImageMode>
+          <Filename>D:/CRG/Diageo/ratings.png</Filename>
+          <ModifyFilename value="False" />
+          <StopIfNotFound value="True" />
+          <ImageStyle FixedWidth="false" ImageWidth="200" ShowBorder="false" BorderWidth="1" BorderColor="#000000" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerImagePlugin" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\harsh\AppData\Local\Temp\Alteryx\Engine_18168_615b79b978bb5649be53eaeaa7112c72_\Engine_18168_7835477fd3ff9f419f535e2359ced876~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output5" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output1" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output3" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output2" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output4" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Reports" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <SortedGrouping value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Clustering Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3e986354-bcd7-4ba2-9fc9-e2602231b730" />
+      <Telemetry>
+        <PreviousWorkflowId value="919ac865-dcad-487b-b044-da3549c87767" />
+        <OriginWorkflowId value="919ac865-dcad-487b-b044-da3549c87767" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

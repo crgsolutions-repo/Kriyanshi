@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\CRG\Diageo\biplot_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>biplot_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="UT_Fruit-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Esters-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="_Dried_Fruit-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Brown spices No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="UT_Vanilla-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="UT_Wood-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="New_Wood-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Aged_Wood-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="UT_Smoky-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="UT_Rubber-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="UT_Sugars-_No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Caramel_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Brown_Sugar-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="UT Floral No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="UT__Green_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Hay/Tea-No_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="UT_Dry_Fragant-_Pa_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Sweet_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Bitter_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Sour_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Alcoholic_strength_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Viscous_rating" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Cluster" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="186" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Name" selected="False" />
+            <Field field="Rating" selected="True" />
+            <Field field="UT_Fruit-No_rating" selected="True" />
+            <Field field="Esters-No_rating" selected="True" />
+            <Field field="_Dried_Fruit-No_rating" selected="True" />
+            <Field field="Brown spices No_rating" selected="True" />
+            <Field field="UT_Vanilla-No_rating" selected="True" />
+            <Field field="UT_Wood-No_rating" selected="True" />
+            <Field field="New_Wood-No_rating" selected="True" />
+            <Field field="Aged_Wood-No_rating" selected="True" />
+            <Field field="UT_Smoky-No_rating" selected="True" />
+            <Field field="UT_Rubber-No_rating" selected="True" />
+            <Field field="UT_Sugars-_No_rating" selected="True" />
+            <Field field="Caramel_rating" selected="True" />
+            <Field field="Brown_Sugar-No_rating" selected="True" />
+            <Field field="UT Floral No_rating" selected="True" />
+            <Field field="UT__Green_rating" selected="True" />
+            <Field field="Hay/Tea-No_rating" selected="True" />
+            <Field field="UT_Dry_Fragant-_Pa_rating" selected="True" />
+            <Field field="Sweet_rating" selected="True" />
+            <Field field="Bitter_rating" selected="True" />
+            <Field field="Sour_rating" selected="True" />
+            <Field field="Alcoholic_strength_rating" selected="True" />
+            <Field field="Viscous_rating" selected="True" />
+            <Field field="Cluster" selected="False" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+            <Field name="Rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Byte" />
+            <Field name="UT_Fruit-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Esters-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="_Dried_Fruit-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Brown spices No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="UT_Vanilla-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="UT_Wood-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="New_Wood-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Aged_Wood-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="UT_Smoky-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="UT_Rubber-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="UT_Sugars-_No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Caramel_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Brown_Sugar-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="UT Floral No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="UT__Green_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Hay/Tea-No_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="UT_Dry_Fragant-_Pa_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Sweet_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Bitter_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Sour_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Alcoholic_strength_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Viscous_rating" source="File: D:\CRG\Diageo\biplot_data.csv" type="Double" />
+            <Field name="Cluster" size="254" source="File: D:\CRG\Diageo\biplot_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="438" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\CRG\Diageo\biplot_data_Alteryx.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>biplot_data_Alteryx.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="438" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="fields">Avg_UT_Fruit-No_rating + Avg_Esters-No_rating + Avg__Dried_Fruit-No_rating + Avg_Brown spices No_rating + Avg_UT_Vanilla-No_rating + Avg_UT_Wood-No_rating + Avg_New_Wood-No_rating + Avg_Aged_Wood-No_rating + Avg_UT_Smoky-No_rating + Avg_UT_Rubber-No_rating + Avg_UT_Sugars-_No_rating + Avg_Caramel_rating + Avg_Brown_Sugar-No_rating + Avg_UT Floral No_rating + Avg_UT__Green_rating + Avg_Hay/Tea-No_rating + Avg_UT_Dry_Fragant-_Pa_rating + Avg_Sweet_rating + Avg_Bitter_rating + Avg_Sour_rating + Avg_Alcoholic_strength_rating + Avg_Viscous_rating</Value>
+          <Value name="scale">False</Value>
+          <Value name="max components">2</Value>
+          <Value name="append pc">True</Value>
+          <Value name="num pc">2</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Avg_UT_Fruit.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Esters.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg__Dried_Fruit.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Brown.spices.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_UT_Vanilla.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_UT_Wood.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_New_Wood.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Aged_Wood.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_UT_Smoky.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_UT_Rubber.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_UT_Sugars._No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Caramel_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Brown_Sugar.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_UT.Floral.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_UT__Green_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Hay.Tea.No_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_UT_Dry_Fragant._Pa_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Sweet_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Bitter_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Sour_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Alcoholic_strength_rating" source="R-DATA:" type="Double" />
+            <Field name="Avg_Viscous_rating" source="R-DATA:" type="Double" />
+            <Field name="PC1" source="R-DATA:" type="Double" />
+            <Field name="PC2" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="330" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Name" action="GroupBy" rename="Name" />
+            <SummarizeField field="UT_Fruit-No_rating" action="Avg" rename="Avg_UT_Fruit-No_rating" />
+            <SummarizeField field="Esters-No_rating" action="Avg" rename="Avg_Esters-No_rating" />
+            <SummarizeField field="_Dried_Fruit-No_rating" action="Avg" rename="Avg__Dried_Fruit-No_rating" />
+            <SummarizeField field="Brown spices No_rating" action="Avg" rename="Avg_Brown spices No_rating" />
+            <SummarizeField field="UT_Vanilla-No_rating" action="Avg" rename="Avg_UT_Vanilla-No_rating" />
+            <SummarizeField field="UT_Wood-No_rating" action="Avg" rename="Avg_UT_Wood-No_rating" />
+            <SummarizeField field="New_Wood-No_rating" action="Avg" rename="Avg_New_Wood-No_rating" />
+            <SummarizeField field="Aged_Wood-No_rating" action="Avg" rename="Avg_Aged_Wood-No_rating" />
+            <SummarizeField field="UT_Smoky-No_rating" action="Avg" rename="Avg_UT_Smoky-No_rating" />
+            <SummarizeField field="UT_Rubber-No_rating" action="Avg" rename="Avg_UT_Rubber-No_rating" />
+            <SummarizeField field="UT_Sugars-_No_rating" action="Avg" rename="Avg_UT_Sugars-_No_rating" />
+            <SummarizeField field="Caramel_rating" action="Avg" rename="Avg_Caramel_rating" />
+            <SummarizeField field="Brown_Sugar-No_rating" action="Avg" rename="Avg_Brown_Sugar-No_rating" />
+            <SummarizeField field="UT Floral No_rating" action="Avg" rename="Avg_UT Floral No_rating" />
+            <SummarizeField field="UT__Green_rating" action="Avg" rename="Avg_UT__Green_rating" />
+            <SummarizeField field="Hay/Tea-No_rating" action="Avg" rename="Avg_Hay/Tea-No_rating" />
+            <SummarizeField field="UT_Dry_Fragant-_Pa_rating" action="Avg" rename="Avg_UT_Dry_Fragant-_Pa_rating" />
+            <SummarizeField field="Sweet_rating" action="Avg" rename="Avg_Sweet_rating" />
+            <SummarizeField field="Bitter_rating" action="Avg" rename="Avg_Bitter_rating" />
+            <SummarizeField field="Sour_rating" action="Avg" rename="Avg_Sour_rating" />
+            <SummarizeField field="Alcoholic_strength_rating" action="Avg" rename="Avg_Alcoholic_strength_rating" />
+            <SummarizeField field="Viscous_rating" action="Avg" rename="Avg_Viscous_rating" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\harsh\AppData\Local\Temp\Alteryx\Engine_28644_052c63610d335247918003f5fdbc2f7d_\Engine_28644_dbaee3607e8567428b65af82e6ddd782~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\harsh\AppData\Local\Temp\Alteryx\Engine_28644_052c63610d335247918003f5fdbc2f7d_\Engine_28644_f52738a57aaffd4c9f3ab98becd709bc~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Reports" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Biplot_data_prep</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d4b6e6a7-4b4d-4409-842e-42d7fb019b82" />
+      <Telemetry>
+        <PreviousWorkflowId value="4836c704-aee8-47c2-8c97-12dcef7c13d9" />
+        <OriginWorkflowId value="4836c704-aee8-47c2-8c97-12dcef7c13d9" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

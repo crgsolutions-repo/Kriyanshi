@@ -1,0 +1,594 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="56">D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Diageo Market Evaluation Data.xlsm
+Query=`Simplified Consumer Data(15...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Observation" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="Antiquity Blue (109)" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="540" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="342" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="186" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="Chivas 12(943)" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="293" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="388" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="434" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="765" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="427" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="Signature Rare(582)" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="Oaksmith Gold (436)" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="201" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="Blenders Pride (565)" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="272" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Observation" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Observation" selected="False" />
+            <Field field="Antiquity Blue (109)" selected="True" />
+            <Field field="540" selected="True" />
+            <Field field="342" selected="True" />
+            <Field field="186" selected="True" />
+            <Field field="Chivas 12(943)" selected="True" />
+            <Field field="293" selected="True" />
+            <Field field="388" selected="True" />
+            <Field field="434" selected="True" />
+            <Field field="765" selected="True" />
+            <Field field="427" selected="True" />
+            <Field field="Signature Rare(582)" selected="True" />
+            <Field field="Oaksmith Gold (436)" selected="True" />
+            <Field field="201" selected="True" />
+            <Field field="Blenders Pride (565)" selected="True" />
+            <Field field="272" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\CRG\Diageo\flavours.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>flavours.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Code" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Description" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="PRODUCT" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="UT_Fruit-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Esters-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="_Dried_Fruit-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Brown spices No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="UT_Vanilla-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="UT_Wood-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="New_Wood-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Aged_Wood-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="UT_Smoky-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="UT_Rubber-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="UT_Sugars-_No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Caramel" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Brown_Sugar-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="UT Floral No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="UT__Green" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Hay/Tea-No" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="UT_Dry_Fragant-_Pa" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Sweet" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Bitter" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Sour" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Alcoholic_strength" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Viscous" size="254" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="246" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Value" selected="True" rename="Rating" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="([UT_Fruit-No]/([UT_Fruit-No]+[UT_Sugars-_No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]))*[Rating]" field="UT_Fruit-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Esters-No]/([UT_Fruit-No]+[UT_Sugars-_No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]))*[Rating]" field="Esters-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([_Dried_Fruit-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="_Dried_Fruit-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Brown spices No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="Brown spices No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([UT_Vanilla-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="UT_Vanilla-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([UT_Wood-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="UT_Wood-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([New_Wood-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="New_Wood-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Aged_Wood-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="Aged_Wood-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([UT_Smoky-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="UT_Smoky-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([UT_Rubber-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="UT_Rubber-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([UT_Sugars-_No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="UT_Sugars-_No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Caramel]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="Caramel_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Brown_Sugar-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="Brown_Sugar-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([UT Floral No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="UT Floral No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([UT__Green]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="UT__Green_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Hay/Tea-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="Hay/Tea-No_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([UT_Dry_Fragant-_Pa]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="UT_Dry_Fragant-_Pa_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Sweet]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="Sweet_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Bitter]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="Bitter_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Sour]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="Sour_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Alcoholic_strength]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="Alcoholic_strength_rating" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="([Viscous]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" field="Viscous_rating" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>UT_Fruit-No_rating = ([UT_Fruit-No]/([UT_Fruit-No]+[UT_Sugars-_No]+[Esters-No]+[...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="342" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Name" selected="True" />
+            <Field field="PRODUCT" selected="True" />
+            <Field field="UT_Fruit-No" selected="True" />
+            <Field field="Esters-No" selected="True" />
+            <Field field="_Dried_Fruit-No" selected="True" />
+            <Field field="Brown spices No" selected="True" />
+            <Field field="UT_Vanilla-No" selected="True" />
+            <Field field="UT_Wood-No" selected="True" />
+            <Field field="New_Wood-No" selected="True" />
+            <Field field="Aged_Wood-No" selected="True" />
+            <Field field="UT_Smoky-No" selected="True" />
+            <Field field="UT_Rubber-No" selected="True" />
+            <Field field="UT_Sugars-_No" selected="True" />
+            <Field field="Caramel" selected="True" />
+            <Field field="Brown_Sugar-No" selected="True" />
+            <Field field="UT Floral No" selected="True" />
+            <Field field="UT__Green" selected="True" />
+            <Field field="Hay/Tea-No" selected="True" />
+            <Field field="UT_Dry_Fragant-_Pa" selected="True" />
+            <Field field="Sweet" selected="True" />
+            <Field field="Bitter" selected="True" />
+            <Field field="Sour" selected="True" />
+            <Field field="Alcoholic_strength" selected="True" />
+            <Field field="Viscous" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Observation" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="Name" size="20" source="Transpose:" type="V_String" />
+            <Field name="Rating" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="Code" size="20" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Description" size="103" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="PRODUCT" size="3" source="File: D:\CRG\Diageo\flavours.csv" type="String" />
+            <Field name="UT_Fruit-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Esters-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="_Dried_Fruit-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Brown spices No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Vanilla-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Wood-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="New_Wood-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Aged_Wood-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Smoky-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Rubber-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Sugars-_No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Caramel" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Brown_Sugar-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT Floral No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT__Green" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Hay/Tea-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Dry_Fragant-_Pa" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Sweet" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Bitter" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Sour" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Alcoholic_strength" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Viscous" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="534" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Name" selected="True" />
+            <Field field="PRODUCT" selected="True" />
+            <Field field="UT_Fruit-No_rating" selected="True" />
+            <Field field="Esters-No_rating" selected="True" />
+            <Field field="_Dried_Fruit-No_rating" selected="True" />
+            <Field field="Brown spices No_rating" selected="True" />
+            <Field field="UT_Vanilla-No_rating" selected="True" />
+            <Field field="UT_Wood-No_rating" selected="True" />
+            <Field field="New_Wood-No_rating" selected="True" />
+            <Field field="Aged_Wood-No_rating" selected="True" />
+            <Field field="UT_Smoky-No_rating" selected="True" />
+            <Field field="UT_Rubber-No_rating" selected="True" />
+            <Field field="UT_Sugars-_No_rating" selected="True" />
+            <Field field="Caramel_rating" selected="True" />
+            <Field field="Brown_Sugar-No_rating" selected="True" />
+            <Field field="UT Floral No_rating" selected="True" />
+            <Field field="UT__Green_rating" selected="True" />
+            <Field field="Hay/Tea-No_rating" selected="True" />
+            <Field field="UT_Dry_Fragant-_Pa_rating" selected="True" />
+            <Field field="Sweet_rating" selected="True" />
+            <Field field="Bitter_rating" selected="True" />
+            <Field field="Sour_rating" selected="True" />
+            <Field field="Alcoholic_strength_rating" selected="True" />
+            <Field field="Viscous_rating" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Observation" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="Name" size="20" source="Transpose:" type="V_String" />
+            <Field name="Rating" source="File: D:\CRG\Diageo\Diageo Market Evaluation Data.xlsm|||`Simplified Consumer Data(15)$`" type="Double" />
+            <Field name="Code" size="20" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="Description" size="103" source="File: D:\CRG\Diageo\flavours.csv" type="V_String" />
+            <Field name="PRODUCT" size="3" source="File: D:\CRG\Diageo\flavours.csv" type="String" />
+            <Field name="UT_Fruit-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Esters-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="_Dried_Fruit-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Brown spices No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Vanilla-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Wood-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="New_Wood-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Aged_Wood-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Smoky-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Rubber-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Sugars-_No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Caramel" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Brown_Sugar-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT Floral No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT__Green" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Hay/Tea-No" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Dry_Fragant-_Pa" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Sweet" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Bitter" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Sour" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Alcoholic_strength" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="Viscous" source="File: D:\CRG\Diageo\flavours.csv" type="Double" />
+            <Field name="UT_Fruit-No_rating" source="Formula: ([UT_Fruit-No]/([UT_Fruit-No]+[UT_Sugars-_No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]))*[Rating]" type="Double" />
+            <Field name="Esters-No_rating" source="Formula: ([Esters-No]/([UT_Fruit-No]+[UT_Sugars-_No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]))*[Rating]" type="Double" />
+            <Field name="_Dried_Fruit-No_rating" source="Formula: ([_Dried_Fruit-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="Brown spices No_rating" source="Formula: ([Brown spices No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="UT_Vanilla-No_rating" source="Formula: ([UT_Vanilla-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="UT_Wood-No_rating" source="Formula: ([UT_Wood-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="New_Wood-No_rating" source="Formula: ([New_Wood-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="Aged_Wood-No_rating" source="Formula: ([Aged_Wood-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="UT_Smoky-No_rating" source="Formula: ([UT_Smoky-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="UT_Rubber-No_rating" source="Formula: ([UT_Rubber-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="UT_Sugars-_No_rating" source="Formula: ([UT_Sugars-_No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="Caramel_rating" source="Formula: ([Caramel]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="Brown_Sugar-No_rating" source="Formula: ([Brown_Sugar-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="UT Floral No_rating" source="Formula: ([UT Floral No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="UT__Green_rating" source="Formula: ([UT__Green]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="Hay/Tea-No_rating" source="Formula: ([Hay/Tea-No]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="UT_Dry_Fragant-_Pa_rating" source="Formula: ([UT_Dry_Fragant-_Pa]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="Sweet_rating" source="Formula: ([Sweet]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="Bitter_rating" source="Formula: ([Bitter]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="Sour_rating" source="Formula: ([Sour]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="Alcoholic_strength_rating" source="Formula: ([Alcoholic_strength]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+            <Field name="Viscous_rating" source="Formula: ([Viscous]/([UT_Fruit-No]+[Esters-No]+[_Dried_Fruit-No]+[Brown spices No]+[UT_Vanilla-No]+[UT_Wood-No]+[New_Wood-No]+[Aged_Wood-No]+[UT_Smoky-No]+[UT_Rubber-No]+[Caramel]+[Brown_Sugar-No]+[UT Floral No]+[UT__Green]+[Hay/Tea-No]+[UT_Dry_Fragant-_Pa]+[Sweet]+[Bitter]+[Sour]+[Alcoholic_strength]+[Viscous]+[UT_Sugars-_No]))*[Rating]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="678" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PRODUCT" selected="False" />
+            <SelectField field="UT_Fruit-No" selected="False" />
+            <SelectField field="Esters-No" selected="False" />
+            <SelectField field="_Dried_Fruit-No" selected="False" />
+            <SelectField field="Brown spices No" selected="False" />
+            <SelectField field="UT_Vanilla-No" selected="False" />
+            <SelectField field="UT_Wood-No" selected="False" />
+            <SelectField field="New_Wood-No" selected="False" />
+            <SelectField field="Aged_Wood-No" selected="False" />
+            <SelectField field="UT_Smoky-No" selected="False" />
+            <SelectField field="UT_Rubber-No" selected="False" />
+            <SelectField field="UT_Sugars-_No" selected="False" />
+            <SelectField field="Caramel" selected="False" />
+            <SelectField field="Brown_Sugar-No" selected="False" />
+            <SelectField field="UT Floral No" selected="False" />
+            <SelectField field="UT__Green" selected="False" />
+            <SelectField field="Hay/Tea-No" selected="False" />
+            <SelectField field="UT_Dry_Fragant-_Pa" selected="False" />
+            <SelectField field="Sweet" selected="False" />
+            <SelectField field="Bitter" selected="False" />
+            <SelectField field="Sour" selected="False" />
+            <SelectField field="Alcoholic_strength" selected="False" />
+            <SelectField field="Viscous" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="834" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\CRG\Diageo\final.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>final.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Rating" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="438" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\CRG\Diageo\Name_Rating.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name_Rating.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data_prep</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="faa3b103-4d66-459f-963e-2b748b7de0c6" />
+      <Telemetry>
+        <PreviousWorkflowId value="d8cdd8bf-f5c1-4554-abc5-c88dd09de151" />
+        <OriginWorkflowId value="d8cdd8bf-f5c1-4554-abc5-c88dd09de151" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
