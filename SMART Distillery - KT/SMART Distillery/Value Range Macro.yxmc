@@ -1,0 +1,811 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+        <Position x="342" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Formula</Mode>
+          <Expression>[Name] = "Malt Hot Water Extract 6-Row (% w/w)" or [Name] = "Mash B#"</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Mash B#" source="TextInput:" type="Int32" />
+            <Field name="Malt Hot Water Extract 6-Row (% w/w)" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="222" y="162" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Update Value</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="114" y="90" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Control Parameter (5)</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="534" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if [Malt Hot Water Extract 6-Row (% w/w)] &gt;= 1 and [Malt Hot Water Extract 6-Row (% w/w)] &lt;= 5&#xA;then 1&#xA;else 0&#xA;endif" field="A" size="8" type="Double" enabled="true" />
+            <FormulaField expression="&quot;a&quot;" field="B" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>A = if [Malt Hot Water Extract 6-Row (% w/w)] &gt;= 1 and [Malt Hot Water Extract 6...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Mash B#" source="TextInput:" type="Int32" />
+            <Field name="Malt Hot Water Extract 6-Row (% w/w)" source="TextInput:" type="Double" />
+            <Field name="A" source="Formula: if [Malt Hot Water Extract 6-Row (% w/w)] &gt;= 1 and [Malt Hot Water Extract 6-Row (% w/w)] &lt;= 5&#xA;then 1&#xA;else 0&#xA;endif" type="Double" />
+            <Field name="B" size="1073741823" source="Formula: &quot;a&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="486" y="150" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Update Value</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="402" y="66" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Control Parameter (8)</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Mash B#" source="TextInput:" type="Int32" />
+            <Field name="Malt Hot Water Extract 6-Row (% w/w)" source="TextInput:" type="Double" />
+            <Field name="Malt Predicted Spirit Yield 6-Row (LA/T" source="TextInput:" type="Double" />
+            <Field name="Malt Grist Ratio - Coarse (%w/w)" source="TextInput:" type="Int32" />
+            <Field name="Malt Grist Ratio - Medium (%w/w)" source="TextInput:" type="Int32" />
+            <Field name="Malt Grist Ratio - Fine (%w/w)" source="TextInput:" type="Int32" />
+            <Field name="Malt Moisture (%)" source="TextInput:" type="Double" />
+            <Field name="Malt Friability 6-Row" source="TextInput:" type="Double" />
+            <Field name="Water Sensory" source="TextInput:" type="Int32" />
+            <Field name="Water pH" source="TextInput:" type="Int32" />
+            <Field name="Water TDS" source="TextInput:" type="Int32" />
+            <Field name="Water Hardness" source="TextInput:" type="Int32" />
+            <Field name="Water Chloride" source="TextInput:" type="Int32" />
+            <Field name="Water Alkalinity" source="TextInput:" type="Int32" />
+            <Field name="Sparging Temperature 1" source="TextInput:" type="Double" />
+            <Field name="Sparging Temperature 2" source="TextInput:" type="Double" />
+            <Field name="Mash Vessel Turnaround Time" source="TextInput:" type="Int32" />
+            <Field name="Weak Wort Temperature" source="TextInput:" type="Double" />
+            <Field name="Mashing - Striking Temp." source="TextInput:" type="Double" />
+            <Field name="Draff Loss" source="TextInput:" type="Double" />
+            <Field name="Weak Wort Gravity" source="TextInput:" type="Double" />
+            <Field name="First Wort Collection - Turbidity" source="TextInput:" type="Int32" />
+            <Field name="First Wort Collection - Gravity" source="TextInput:" type="Double" />
+            <Field name="CIP Caustic Strength %" source="TextInput:" type="Double" />
+            <Field name="CIP Solution Temperature" source="TextInput:" type="Int32" />
+            <Field name="Yeast Culture Vessel-Wort Initial Gravity" source="TextInput:" type="Double" />
+            <Field name="Yeast Culture Vessel-Wort Final Gravity" source="TextInput:" type="Double" />
+            <Field name="Fermentation Volume" source="TextInput:" type="Int32" />
+            <Field name="Ferm. Set-up Temp" source="TextInput:" type="Int32" />
+            <Field name="Ferm. Set-up Gravity" source="TextInput:" type="Double" />
+            <Field name="Ferm. Set-up pH" source="TextInput:" type="Double" />
+            <Field name="Ferm. Max. Temp." source="TextInput:" type="Int32" />
+            <Field name="Fermentation Time" source="TextInput:" type="Int32" />
+            <Field name="Total Fermentation Time" source="TextInput:" type="Int32" />
+            <Field name="Ferm. wash pH" source="TextInput:" type="Double" />
+            <Field name="Ferm. Alcohol(%) 6-Row" source="TextInput:" type="Double" />
+            <Field name="Ferm. Wash Residual Sugar" source="TextInput:" type="Double" />
+            <Field name="WD 1 - Distillation Time" source="TextInput:" type="Double" />
+            <Field name="WD - Alcohol % in Low Wine" source="TextInput:" type="Double" />
+            <Field name="WD - Volume Low Wine" source="TextInput:" type="Int32" />
+            <Field name="SD - Tail Cut Time" source="TextInput:" type="Int32" />
+            <Field name="SD - Total Distillation Time" source="TextInput:" type="Int32" />
+            <Field name="SD - Recovery 6-Row" source="TextInput:" type="Double" />
+            <Field name="SD - Average Proof FMS" source="TextInput:" type="Double" />
+            <Field name="GC - Methanol" source="TextInput:" type="Double" />
+            <Field name="GC - Acetaldehyde" source="TextInput:" type="Double" />
+            <Field name="GC - n-Propanol" source="TextInput:" type="Double" />
+            <Field name="GC - Iso Butanol" source="TextInput:" type="Double" />
+            <Field name="GC - Iso Amyl Alcohol" source="TextInput:" type="Double" />
+            <Field name="GC - Ethyl Acetate" source="TextInput:" type="Double" />
+            <Field name="Sensory Score - TC (1 - 5 Goodness increases)" source="TextInput:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="834" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output16</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="78" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input17</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="3" />
+              <Fields>
+                <Field name="Mash B#" />
+                <Field name="Malt Hot Water Extract 6-Row (% w/w)" />
+                <Field name="Malt Predicted Spirit Yield 6-Row (LA/T" />
+                <Field name="Malt Grist Ratio - Coarse (%w/w)" />
+                <Field name="Malt Grist Ratio - Medium (%w/w)" />
+                <Field name="Malt Grist Ratio - Fine (%w/w)" />
+                <Field name="Malt Moisture (%)" />
+                <Field name="Malt Friability 6-Row" />
+                <Field name="Water Sensory" />
+                <Field name="Water pH" />
+                <Field name="Water TDS" />
+                <Field name="Water Hardness" />
+                <Field name="Water Chloride" />
+                <Field name="Water Alkalinity" />
+                <Field name="Sparging Temperature 1" />
+                <Field name="Sparging Temperature 2" />
+                <Field name="Mash Vessel Turnaround Time" />
+                <Field name="Weak Wort Temperature" />
+                <Field name="Mashing - Striking Temp." />
+                <Field name="Draff Loss" />
+                <Field name="Weak Wort Gravity" />
+                <Field name="First Wort Collection - Turbidity" />
+                <Field name="First Wort Collection - Gravity" />
+                <Field name="CIP Caustic Strength %" />
+                <Field name="CIP Solution Temperature" />
+                <Field name="Yeast Culture Vessel-Wort Initial Gravity" />
+                <Field name="Yeast Culture Vessel-Wort Final Gravity" />
+                <Field name="Fermentation Volume" />
+                <Field name="Ferm. Set-up Temp" />
+                <Field name="Ferm. Set-up Gravity" />
+                <Field name="Ferm. Set-up pH" />
+                <Field name="Ferm. Max. Temp." />
+                <Field name="Fermentation Time" />
+                <Field name="Total Fermentation Time" />
+                <Field name="Ferm. wash pH" />
+                <Field name="Ferm. Alcohol(%) 6-Row" />
+                <Field name="Ferm. Wash Residual Sugar" />
+                <Field name="WD 1 - Distillation Time" />
+                <Field name="WD - Alcohol % in Low Wine" />
+                <Field name="WD - Volume Low Wine" />
+                <Field name="SD - Tail Cut Time" />
+                <Field name="SD - Total Distillation Time" />
+                <Field name="SD - Recovery 6-Row" />
+                <Field name="SD - Average Proof FMS" />
+                <Field name="GC - Methanol" />
+                <Field name="GC - Acetaldehyde" />
+                <Field name="GC - n-Propanol" />
+                <Field name="GC - Iso Butanol" />
+                <Field name="GC - Iso Amyl Alcohol" />
+                <Field name="GC - Ethyl Acetate" />
+                <Field name="Sensory Score - TC (1 - 5 Goodness increases)" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>866</c>
+                  <c>74.036215</c>
+                  <c>341.54</c>
+                  <c>18</c>
+                  <c>75</c>
+                  <c>7</c>
+                  <c>4.85</c>
+                  <c>69.12</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>78.4</c>
+                  <c>85.4</c>
+                  <c>300</c>
+                  <c>75.4</c>
+                  <c>65.1</c>
+                  <c>0.42</c>
+                  <c>1.005</c>
+                  <c>265</c>
+                  <c>1.075</c>
+                  <c>2</c>
+                  <c>70</c>
+                  <c>1.062</c>
+                  <c>1.05</c>
+                  <c>33985</c>
+                  <c>19</c>
+                  <c>1.06</c>
+                  <c>5.32</c>
+                  <c>34</c>
+                  <c>52</c>
+                  <c>70</c>
+                  <c>3.51</c>
+                  <c>8.2</c>
+                  <c>0.46</c>
+                  <c>10</c>
+                  <c>20.62754</c>
+                  <c>13167</c>
+                  <c>270</c>
+                  <c>10</c>
+                  <c>584.868375</c>
+                  <c>113.1</c>
+                  <c>1.5</c>
+                  <c>39.1</c>
+                  <c>45.7</c>
+                  <c>157.8</c>
+                  <c>27.7</c>
+                  <c>27.7</c>
+                  <c>0</c>
+                </r>
+                <r>
+                  <c>857</c>
+                  <c>74.249045</c>
+                  <c>342.52</c>
+                  <c>17</c>
+                  <c>76</c>
+                  <c>7</c>
+                  <c>4.65</c>
+                  <c>69.99</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>78.4</c>
+                  <c>85.4</c>
+                  <c>295</c>
+                  <c>76.2</c>
+                  <c>65.1</c>
+                  <c>0.41</c>
+                  <c>1.005</c>
+                  <c>260</c>
+                  <c>1.071</c>
+                  <c>2</c>
+                  <c>70</c>
+                  <c>1.065</c>
+                  <c>1.053</c>
+                  <c>33985</c>
+                  <c>19</c>
+                  <c>1.059</c>
+                  <c>5.25</c>
+                  <c>34</c>
+                  <c>52</c>
+                  <c>70</c>
+                  <c>3.49</c>
+                  <c>8.3</c>
+                  <c>0.43</c>
+                  <c>10.25</c>
+                  <c>20.97038</c>
+                  <c>13141</c>
+                  <c>270</c>
+                  <c>10</c>
+                  <c>584.868375</c>
+                  <c>113.1</c>
+                  <c>2.8</c>
+                  <c>39.1</c>
+                  <c>45.4</c>
+                  <c>157.9</c>
+                  <c>25.1</c>
+                  <c>25.1</c>
+                  <c>0</c>
+                </r>
+                <r>
+                  <c>864</c>
+                  <c>74.269026</c>
+                  <c>342.61</c>
+                  <c>17</c>
+                  <c>75</c>
+                  <c>8</c>
+                  <c>4.71</c>
+                  <c>70.1</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>78.4</c>
+                  <c>85.4</c>
+                  <c>270</c>
+                  <c>76.2</c>
+                  <c>65</c>
+                  <c>0.44</c>
+                  <c>1.005</c>
+                  <c>270</c>
+                  <c>1.071</c>
+                  <c>2.1</c>
+                  <c>70</c>
+                  <c>1.065</c>
+                  <c>1.053</c>
+                  <c>33985</c>
+                  <c>18</c>
+                  <c>1.058</c>
+                  <c>5.25</c>
+                  <c>34</c>
+                  <c>50</c>
+                  <c>70</c>
+                  <c>3.52</c>
+                  <c>8.3</c>
+                  <c>0.41</c>
+                  <c>10</c>
+                  <c>20.8561</c>
+                  <c>13161</c>
+                  <c>270</c>
+                  <c>10</c>
+                  <c>584.727</c>
+                  <c>112.8</c>
+                  <c>2.7</c>
+                  <c>42.3</c>
+                  <c>53.5</c>
+                  <c>149</c>
+                  <c>25.8</c>
+                  <c>25.8</c>
+                  <c>0</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Mash B#" source="TextInput:" type="Int32" />
+            <Field name="Malt Hot Water Extract 6-Row (% w/w)" source="TextInput:" type="Double" />
+            <Field name="Malt Predicted Spirit Yield 6-Row (LA/T" source="TextInput:" type="Double" />
+            <Field name="Malt Grist Ratio - Coarse (%w/w)" source="TextInput:" type="Int32" />
+            <Field name="Malt Grist Ratio - Medium (%w/w)" source="TextInput:" type="Int32" />
+            <Field name="Malt Grist Ratio - Fine (%w/w)" source="TextInput:" type="Int32" />
+            <Field name="Malt Moisture (%)" source="TextInput:" type="Double" />
+            <Field name="Malt Friability 6-Row" source="TextInput:" type="Double" />
+            <Field name="Water Sensory" source="TextInput:" type="Int32" />
+            <Field name="Water pH" source="TextInput:" type="Int32" />
+            <Field name="Water TDS" source="TextInput:" type="Int32" />
+            <Field name="Water Hardness" source="TextInput:" type="Int32" />
+            <Field name="Water Chloride" source="TextInput:" type="Int32" />
+            <Field name="Water Alkalinity" source="TextInput:" type="Int32" />
+            <Field name="Sparging Temperature 1" source="TextInput:" type="Double" />
+            <Field name="Sparging Temperature 2" source="TextInput:" type="Double" />
+            <Field name="Mash Vessel Turnaround Time" source="TextInput:" type="Int32" />
+            <Field name="Weak Wort Temperature" source="TextInput:" type="Double" />
+            <Field name="Mashing - Striking Temp." source="TextInput:" type="Double" />
+            <Field name="Draff Loss" source="TextInput:" type="Double" />
+            <Field name="Weak Wort Gravity" source="TextInput:" type="Double" />
+            <Field name="First Wort Collection - Turbidity" source="TextInput:" type="Int32" />
+            <Field name="First Wort Collection - Gravity" source="TextInput:" type="Double" />
+            <Field name="CIP Caustic Strength %" source="TextInput:" type="Double" />
+            <Field name="CIP Solution Temperature" source="TextInput:" type="Int32" />
+            <Field name="Yeast Culture Vessel-Wort Initial Gravity" source="TextInput:" type="Double" />
+            <Field name="Yeast Culture Vessel-Wort Final Gravity" source="TextInput:" type="Double" />
+            <Field name="Fermentation Volume" source="TextInput:" type="Int32" />
+            <Field name="Ferm. Set-up Temp" source="TextInput:" type="Int32" />
+            <Field name="Ferm. Set-up Gravity" source="TextInput:" type="Double" />
+            <Field name="Ferm. Set-up pH" source="TextInput:" type="Double" />
+            <Field name="Ferm. Max. Temp." source="TextInput:" type="Int32" />
+            <Field name="Fermentation Time" source="TextInput:" type="Int32" />
+            <Field name="Total Fermentation Time" source="TextInput:" type="Int32" />
+            <Field name="Ferm. wash pH" source="TextInput:" type="Double" />
+            <Field name="Ferm. Alcohol(%) 6-Row" source="TextInput:" type="Double" />
+            <Field name="Ferm. Wash Residual Sugar" source="TextInput:" type="Double" />
+            <Field name="WD 1 - Distillation Time" source="TextInput:" type="Double" />
+            <Field name="WD - Alcohol % in Low Wine" source="TextInput:" type="Double" />
+            <Field name="WD - Volume Low Wine" source="TextInput:" type="Int32" />
+            <Field name="SD - Tail Cut Time" source="TextInput:" type="Int32" />
+            <Field name="SD - Total Distillation Time" source="TextInput:" type="Int32" />
+            <Field name="SD - Recovery 6-Row" source="TextInput:" type="Double" />
+            <Field name="SD - Average Proof FMS" source="TextInput:" type="Double" />
+            <Field name="GC - Methanol" source="TextInput:" type="Double" />
+            <Field name="GC - Acetaldehyde" source="TextInput:" type="Double" />
+            <Field name="GC - n-Propanol" source="TextInput:" type="Double" />
+            <Field name="GC - Iso Butanol" source="TextInput:" type="Double" />
+            <Field name="GC - Iso Amyl Alcohol" source="TextInput:" type="Double" />
+            <Field name="GC - Ethyl Acetate" source="TextInput:" type="Double" />
+            <Field name="Sensory Score - TC (1 - 5 Goodness increases)" source="TextInput:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="642" y="162" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Update Value</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="582" y="66" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Control Parameter (19)</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="678" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Mash B#" selected="True" />
+            <SelectField field="A" selected="True" />
+            <SelectField field="B" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Mash B#" source="TextInput:" type="Int32" />
+            <Field name="A" source="Formula: if [Malt Hot Water Extract 6-Row (% w/w)] &gt;= 1 and [Malt Hot Water Extract 6-Row (% w/w)] &lt;= 5&#xA;then 1&#xA;else 0&#xA;endif" type="Double" />
+            <Field name="B" size="1073741823" source="Formula: &quot;a&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Action" />
+      <Destination ToolID="6" Connection="Action" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="18" Connection="Action" />
+      <Destination ToolID="6" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="4" Connection="Action" />
+      <Destination ToolID="2" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="4" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Question" />
+      <Destination ToolID="7" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="19" Connection="Question" />
+      <Destination ToolID="18" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (5)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (8)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (16)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (17)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (19)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Value Range Macro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3d6b7649-3b27-44a5-9e65-ba71b055e0e2" />
+      <Telemetry>
+        <PreviousWorkflowId value="b606f3b9-69eb-4587-a223-f7f1a580f458" />
+        <OriginWorkflowId value="b606f3b9-69eb-4587-a223-f7f1a580f458" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="4" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>Malt Hot Water Extract 6-Row (% w/w)</ReplaceText>
+              <Destination>2/Expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="7" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>a</ReplaceText>
+              <Destination>6/FormulaFields/FormulaField[@field='B']/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="18" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>if [Malt Hot Water Extract 6-Row (% w/w)] &gt;= 1 and [Malt Hot Water Extract 6-Row (% w/w)] &lt;= 5
+then 1
+else 0
+endif</ReplaceText>
+              <Destination>6/FormulaFields/FormulaField[@field='A']/@expression</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (3)</Name>
+          <ToolId value="3" />
+          <Questions>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>Column Name</Description>
+              <Name>Control Parameter (5)</Name>
+              <ToolId value="5" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>New Column Name</Description>
+              <Name>Control Parameter (8)</Name>
+              <ToolId value="8" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (16)</Description>
+              <Name>Macro Output (16)</Name>
+              <ToolId value="16" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (17)</Description>
+              <Name>Macro Input (17)</Name>
+              <ToolId value="17" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>Formula</Description>
+              <Name>Control Parameter (19)</Name>
+              <ToolId value="19" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (5)</Name>
+            <Description>Column Name</Description>
+          </ControlParam>
+          <ControlParam>
+            <Name>Control Parameter (8)</Name>
+            <Description>New Column Name</Description>
+          </ControlParam>
+          <ControlParam>
+            <Name>Control Parameter (19)</Name>
+            <Description>Formula</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="16" Selected="True" />
+        <Tool ToolId="17" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,923 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="296" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>2</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Malt Spirit Process - Parameters and Outcome - V04.xlsx
+Query=`Output Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Mash B#" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="Double" />
+            <Field name="Sensory Score - TC (1 - 5 Goodness increases)" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="Double" />
+            <Field name="Comments" size="255" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="V_String" />
+            <Field name="F4" size="255" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="V_String" />
+            <Field name="F5" size="255" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="V_String" />
+            <Field name="F6" size="255" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="V_String" />
+            <Field name="F7" size="255" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="V_String" />
+            <Field name="F8" size="255" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="V_String" />
+            <Field name="F9" size="255" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="V_String" />
+            <Field name="F10" size="255" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="V_String" />
+            <Field name="F11" size="255" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="V_String" />
+            <Field name="GC - Methanol" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="Double" />
+            <Field name="GC - Acetaldehyde" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="Double" />
+            <Field name="GC - n-Propanol" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="Double" />
+            <Field name="GC - Iso Butanol" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="Double" />
+            <Field name="GC - Iso Amyl Alcohol" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="Double" />
+            <Field name="GC - Ethyl Acetate" source="File: C:\Users\admin\Downloads\Malt Spirit Process - Parameters and Outcome - V04.xlsx|||`Output Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="558" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Mash B#" selected="True" />
+            <SelectField field="Sensory Score - TC (1 - 5 Goodness increases)" selected="True" type="String" size="16384" />
+            <SelectField field="F4" selected="True" type="Double" size="8" />
+            <SelectField field="F5" selected="True" type="Double" size="8" />
+            <SelectField field="F6" selected="True" type="Double" size="8" />
+            <SelectField field="F7" selected="True" type="Double" size="8" />
+            <SelectField field="F8" selected="True" type="Double" size="8" />
+            <SelectField field="F9" selected="True" type="Double" size="8" />
+            <SelectField field="F10" selected="True" type="Double" size="8" />
+            <SelectField field="F11" selected="True" type="Double" size="8" />
+            <SelectField field="GC - Methanol" selected="True" />
+            <SelectField field="GC - Acetaldehyde" selected="True" />
+            <SelectField field="GC - n-Propanol" selected="True" />
+            <SelectField field="GC - Iso Butanol" selected="True" />
+            <SelectField field="GC - Iso Amyl Alcohol" selected="True" />
+            <SelectField field="GC - Ethyl Acetate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="174" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([Mash B#]) and [Mash B#] &gt; 799 and [Mash B#] &lt;= 870</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Mash B#]) and [Mash B#] &gt; 799 and [Mash B#] &lt;= 870</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="666" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">F:\Desktop - Backup - May 2024\CRG\Diageo\SMART Distillery\corr2.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>corr2.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="666" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Linear_Regression_17</Value>
+          <Value name="Y Var">Sensory Score - TC (1 - 5 Goodness increases)</Value>
+          <Value name="X Vars">F4,F5,F6,F7,F8,F9,F10,F11,GC - Methanol,GC - Acetaldehyde,GC - n-Propanol,GC - Iso Butanol,GC - Iso Amyl Alcohol,GC - Ethyl Acetate</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Linear_Regression_17</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="762" y="344" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_17724_1704dec0644fc74e9b731a8eb39fcf93_\Engine_17724_c2ffbf22fd1cc4498fee249695161098~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="762" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_17724_1704dec0644fc74e9b731a8eb39fcf93_\Engine_17724_cebe77a15e445247b5091ac84cb1d1f4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="882" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_17724_1704dec0644fc74e9b731a8eb39fcf93_\Engine_17724_c87095e0179040408e6b771f3f6837b8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_15704_7a32b161ea05f74ca9828a069c2c4c5a_\Engine_15704_da62f41d052ecc46bbd44a6ed405d2e3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings>
+        <Position x="270" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Mash B#","Sensory Score - TC (1 - 5 Goodness increases)","Comments","F4","F5","F6","F7","F8","F9","F10","F11","GC - Methanol","GC - Acetaldehyde","GC - n-Propanol","GC - Iso Butanol","GC - Iso Amyl Alcohol","GC - Ethyl Acetate"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">title</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="366" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="F4" />
+            <Field name="F5" />
+            <Field name="F6" />
+            <Field name="F7" />
+            <Field name="F8" />
+            <Field name="F9" />
+            <Field name="F10" />
+            <Field name="F11" />
+            <Field name="Comments" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>if [_CurrentField_] = "Strong" then 1
+elseif [_CurrentField_] = "Slight" then 2
+elseif [_CurrentField_] = "Very Slight" then 3
+elseif [_CurrentField_] = "Medium" then 4
+else 0
+endif</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if [_CurrentField_] = "Strong" then 1
+elseif [_CurrentField_]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_15704_7a32b161ea05f74ca9828a069c2c4c5a_\Engine_15704_46179c2505883b44bc7b7b634da4c5ab~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_15704_7a32b161ea05f74ca9828a069c2c4c5a_\Engine_15704_a77e786e65fbb049bbc94ebb7aa87923~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings>
+        <Position x="606" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Model Name" />
+          <Value name="Y Var">Sensory Score - TC (1 - 5 Goodness increases)</Value>
+          <Value name="X Vars">Sensory Score - TC (1 - 5 Goodness increases) + F4 + F5 + F6 + F7 + F8 + F9 + F10 + F11 + GC - Methanol + GC - Acetaldehyde + GC - n-Propanol + GC - Iso Butanol + GC - Iso Amyl Alcohol + GC - Ethyl Acetate</Value>
+          <Value name="Num Trees">500</Value>
+          <Value name="Custom Num Vars">False</Value>
+          <Value name="Num Vars">3</Value>
+          <Value name="model.size">False</Value>
+          <Value name="total.nodes">100</Value>
+          <Value name="max.depth">10</Value>
+          <Value name="node.size">5</Value>
+          <Value name="replace">True</Value>
+          <Value name="samp.rate">100</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1049" y="53" width="217" height="541" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 12</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1074" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Malt Hot Water Extract 6-Row (% w/w)" selected="True" />
+                <SelectField field="1000 Kernel Weight (g)" selected="True" />
+                <SelectField field="Malt Predicted Spirit Yield 6-Row (LA/T" selected="True" />
+                <SelectField field="Malt Fermentability" selected="True" />
+                <SelectField field="Malt Grist Ratio - Coarse (%w/w)" selected="True" />
+                <SelectField field="Malt Grist Ratio - Medium (%w/w)" selected="True" />
+                <SelectField field="Malt Grist Ratio - Fine (%w/w)" selected="True" />
+                <SelectField field="Malt Moisture" selected="True" />
+                <SelectField field="Malt Friability 6-Row" selected="True" />
+                <SelectField field="Shelf life at the time of receipt (%)" selected="True" />
+                <SelectField field="Shelf life at use/consumption (no. of days)" selected="True" />
+                <SelectField field="Water Sensory" selected="True" />
+                <SelectField field="Water pH" selected="True" />
+                <SelectField field="Water TDS" selected="True" />
+                <SelectField field="Water Hardness" selected="True" />
+                <SelectField field="Water Chloride" selected="True" />
+                <SelectField field="Water Alkalinity" selected="True" />
+                <SelectField field="Water Free Chlorine" selected="True" />
+                <SelectField field="Grist Quantity" selected="True" />
+                <SelectField field="Sparging Temperature 1" selected="True" />
+                <SelectField field="Sparging Temperature 2" selected="True" />
+                <SelectField field="Mash Vessel Turnaround Time" selected="True" />
+                <SelectField field="Weak Wort Temperature" selected="True" />
+                <SelectField field="Raking Arms Speed" selected="True" />
+                <SelectField field="Mashing - Striking Temp." selected="True" />
+                <SelectField field="Draff Loss" selected="True" />
+                <SelectField field="Resting Time" selected="True" />
+                <SelectField field="Wort Collection - Flow Rate" selected="True" />
+                <SelectField field="First Wort Collection - Turbidity" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1074" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Malt Hot Water Extract 6-Row (% w/w)" selected="True" />
+                <SelectField field="1000 Kernel Weight (g)" selected="True" />
+                <SelectField field="Malt Predicted Spirit Yield 6-Row (LA/T" selected="True" />
+                <SelectField field="Malt Fermentability" selected="True" />
+                <SelectField field="Malt Grist Ratio - Coarse (%w/w)" selected="True" />
+                <SelectField field="Malt Grist Ratio - Medium (%w/w)" selected="True" />
+                <SelectField field="Malt Grist Ratio - Fine (%w/w)" selected="True" />
+                <SelectField field="Malt Moisture" selected="True" />
+                <SelectField field="Malt Friability 6-Row" selected="True" />
+                <SelectField field="Shelf life at the time of receipt (%)" selected="True" />
+                <SelectField field="Shelf life at use/consumption (no. of days)" selected="True" />
+                <SelectField field="Water Sensory" selected="True" />
+                <SelectField field="Water pH" selected="True" />
+                <SelectField field="Water TDS" selected="True" />
+                <SelectField field="Water Hardness" selected="True" />
+                <SelectField field="Water Chloride" selected="True" />
+                <SelectField field="Water Alkalinity" selected="True" />
+                <SelectField field="Water Free Chlorine" selected="True" />
+                <SelectField field="Grist Quantity" selected="True" />
+                <SelectField field="Sparging Temperature 1" selected="True" />
+                <SelectField field="Sparging Temperature 2" selected="True" />
+                <SelectField field="Mash Vessel Turnaround Time" selected="True" />
+                <SelectField field="Weak Wort Temperature" selected="True" />
+                <SelectField field="Raking Arms Speed" selected="True" />
+                <SelectField field="Mashing - Striking Temp." selected="True" />
+                <SelectField field="Draff Loss" selected="True" />
+                <SelectField field="Resting Time" selected="True" />
+                <SelectField field="Wort Collection - Flow Rate" selected="True" />
+                <SelectField field="First Wort Collection - Gravity" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1074" y="306" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Malt Hot Water Extract 6-Row (% w/w)" selected="True" />
+                <SelectField field="1000 Kernel Weight (g)" selected="True" />
+                <SelectField field="Malt Predicted Spirit Yield 6-Row (LA/T" selected="True" />
+                <SelectField field="Malt Fermentability" selected="True" />
+                <SelectField field="Malt Grist Ratio - Coarse (%w/w)" selected="True" />
+                <SelectField field="Malt Grist Ratio - Medium (%w/w)" selected="True" />
+                <SelectField field="Malt Grist Ratio - Fine (%w/w)" selected="True" />
+                <SelectField field="Malt Moisture" selected="True" />
+                <SelectField field="Malt Friability 6-Row" selected="True" />
+                <SelectField field="Shelf life at the time of receipt (%)" selected="True" />
+                <SelectField field="Shelf life at use/consumption (no. of days)" selected="True" />
+                <SelectField field="Water Sensory" selected="True" />
+                <SelectField field="Water pH" selected="True" />
+                <SelectField field="Water TDS" selected="True" />
+                <SelectField field="Water Hardness" selected="True" />
+                <SelectField field="Water Chloride" selected="True" />
+                <SelectField field="Water Alkalinity" selected="True" />
+                <SelectField field="Water Free Chlorine" selected="True" />
+                <SelectField field="Grist Quantity" selected="True" />
+                <SelectField field="Sparging Temperature 1" selected="True" />
+                <SelectField field="Sparging Temperature 2" selected="True" />
+                <SelectField field="Mash Vessel Turnaround Time" selected="True" />
+                <SelectField field="Weak Wort Temperature" selected="True" />
+                <SelectField field="Raking Arms Speed" selected="True" />
+                <SelectField field="Mashing - Striking Temp." selected="True" />
+                <SelectField field="Draff Loss" selected="True" />
+                <SelectField field="Resting Time" selected="True" />
+                <SelectField field="Wort Collection - Flow Rate" selected="True" />
+                <SelectField field="Weak Wort Gravity" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1074" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Malt Hot Water Extract 6-Row (% w/w)" selected="True" />
+                <SelectField field="1000 Kernel Weight (g)" selected="True" />
+                <SelectField field="Malt Predicted Spirit Yield 6-Row (LA/T" selected="True" />
+                <SelectField field="Malt Fermentability" selected="True" />
+                <SelectField field="Malt Grist Ratio - Coarse (%w/w)" selected="True" />
+                <SelectField field="Malt Grist Ratio - Medium (%w/w)" selected="True" />
+                <SelectField field="Malt Grist Ratio - Fine (%w/w)" selected="True" />
+                <SelectField field="Malt Moisture" selected="True" />
+                <SelectField field="Malt Friability 6-Row" selected="True" />
+                <SelectField field="Shelf life at the time of receipt (%)" selected="True" />
+                <SelectField field="Shelf life at use/consumption (no. of days)" selected="True" />
+                <SelectField field="Water Sensory" selected="True" />
+                <SelectField field="Water pH" selected="True" />
+                <SelectField field="Water TDS" selected="True" />
+                <SelectField field="Water Hardness" selected="True" />
+                <SelectField field="Water Chloride" selected="True" />
+                <SelectField field="Water Alkalinity" selected="True" />
+                <SelectField field="Water Free Chlorine" selected="True" />
+                <SelectField field="Grist Quantity" selected="True" />
+                <SelectField field="Sparging Temperature 1" selected="True" />
+                <SelectField field="Sparging Temperature 2" selected="True" />
+                <SelectField field="Mash Vessel Turnaround Time" selected="True" />
+                <SelectField field="Weak Wort Temperature" selected="True" />
+                <SelectField field="Raking Arms Speed" selected="True" />
+                <SelectField field="Mashing - Striking Temp." selected="True" />
+                <SelectField field="Draff Loss" selected="True" />
+                <SelectField field="Resting Time" selected="True" />
+                <SelectField field="Wort Collection - Flow Rate" selected="True" />
+                <SelectField field="Weak Wort Clarity" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1074" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Malt Hot Water Extract 6-Row (% w/w)" selected="True" />
+                <SelectField field="1000 Kernel Weight (g)" selected="True" />
+                <SelectField field="Malt Predicted Spirit Yield 6-Row (LA/T" selected="True" />
+                <SelectField field="Malt Fermentability" selected="True" />
+                <SelectField field="Malt Grist Ratio - Coarse (%w/w)" selected="True" />
+                <SelectField field="Malt Grist Ratio - Medium (%w/w)" selected="True" />
+                <SelectField field="Malt Grist Ratio - Fine (%w/w)" selected="True" />
+                <SelectField field="Malt Moisture" selected="True" />
+                <SelectField field="Malt Friability 6-Row" selected="True" />
+                <SelectField field="Shelf life at the time of receipt (%)" selected="True" />
+                <SelectField field="Shelf life at use/consumption (no. of days)" selected="True" />
+                <SelectField field="Water Sensory" selected="True" />
+                <SelectField field="Water pH" selected="True" />
+                <SelectField field="Water TDS" selected="True" />
+                <SelectField field="Water Hardness" selected="True" />
+                <SelectField field="Water Chloride" selected="True" />
+                <SelectField field="Water Alkalinity" selected="True" />
+                <SelectField field="Water Free Chlorine" selected="True" />
+                <SelectField field="Grist Quantity" selected="True" />
+                <SelectField field="Sparging Temperature 1" selected="True" />
+                <SelectField field="Sparging Temperature 2" selected="True" />
+                <SelectField field="Mash Vessel Turnaround Time" selected="True" />
+                <SelectField field="Weak Wort Temperature" selected="True" />
+                <SelectField field="Raking Arms Speed" selected="True" />
+                <SelectField field="Mashing - Striking Temp." selected="True" />
+                <SelectField field="Draff Loss" selected="True" />
+                <SelectField field="Resting Time" selected="True" />
+                <SelectField field="Wort Collection - Flow Rate" selected="True" />
+                <SelectField field="Weak Wort Temperature2" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings>
+            <Position x="1170" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Model Name">turbidity</Value>
+              <Value name="Y Var">First Wort Collection - Turbidity</Value>
+              <Value name="X Vars">Malt Hot Water Extract 6-Row (% w/w) + 1000 Kernel Weight (g) + Malt Predicted Spirit Yield 6-Row (LA/T + Malt Fermentability + Malt Grist Ratio - Coarse (%w/w) + Malt Grist Ratio - Medium (%w/w) + Malt Grist Ratio - Fine (%w/w) + Malt Moisture + Malt Friability 6-Row + Shelf life at the time of receipt (%) + Shelf life at use/consumption (no. of days) + Water Sensory + Water pH + Water TDS + Water Hardness + Water Chloride + Water Alkalinity + Water Free Chlorine + Grist Quantity + Sparging Temperature 1 + Sparging Temperature 2 + Mash Vessel Turnaround Time + Weak Wort Temperature + Raking Arms Speed + Mashing - Striking Temp. + Draff Loss + Resting Time + Wort Collection - Flow Rate + First Wort Collection - Turbidity</Value>
+              <Value name="Num Trees">500</Value>
+              <Value name="Custom Num Vars">False</Value>
+              <Value name="Num Vars">3</Value>
+              <Value name="model.size">False</Value>
+              <Value name="total.nodes">100</Value>
+              <Value name="max.depth">10</Value>
+              <Value name="node.size">3</Value>
+              <Value name="replace">True</Value>
+              <Value name="samp.rate">100</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings>
+            <Position x="1182" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model.name" />
+              <Value name="select.target">First Wort Collection - Gravity</Value>
+              <Value name="select.predictors">Malt Hot Water Extract 6-Row (% w/w)=True,1000 Kernel Weight (g)=True,Malt Predicted Spirit Yield 6-Row (LA/T=True,Malt Fermentability=True,Malt Grist Ratio - Coarse (%w/w)=True,Malt Grist Ratio - Medium (%w/w)=True,Malt Grist Ratio - Fine (%w/w)=True,Malt Moisture=True,Malt Friability 6-Row=True,Shelf life at the time of receipt (%)=True,Shelf life at use/consumption (no. of days)=True,Water Sensory=True,Water pH=True,Water TDS=True,Water Hardness=True,Water Chloride=True,Water Alkalinity=True,Water Free Chlorine=True,Grist Quantity=True,Sparging Temperature 1=True,Sparging Temperature 2=True,Mash Vessel Turnaround Time=True,Weak Wort Temperature=True,Raking Arms Speed=True,Mashing - Striking Temp.=True,Draff Loss=True,Resting Time=True,Wort Collection - Flow Rate=True,First Wort Collection - Gravity=True</Value>
+              <Value name="use.weights">False</Value>
+              <Value name="select.weights">Malt Hot Water Extract 6-Row (% w/w)</Value>
+              <Value name="num.nodes">10</Value>
+              <Value name="marginal.plots">True</Value>
+              <Value name="custom.scaling">False</Value>
+              <Value name="scale.type">z-score</Value>
+              <Value name="decay">0.100</Value>
+              <Value name="range">0.700</Value>
+              <Value name="max.wts">1000</Value>
+              <Value name="max.iter">100</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Neural_Network.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="22" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Reports" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Interactive Report" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output26" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Reports" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Correlation Analysis - Output</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="358197b0-6500-407a-a17c-b8cb099bf5ac" />
+      <Telemetry>
+        <PreviousWorkflowId value="8669d469-e134-411e-a5ff-023af97baa9a" />
+        <OriginWorkflowId value="972bf407-3130-43eb-81c0-38e4d440505f" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,5 @@
+1. How are the parameters related to each other? 
+2. Which parameters are always going to remain constant? and which are not?
+3. Why is the data missing for so many fields and batches? 
+4. Output Sheet consists of oversampled data. Can we get access to data that is not oversampled as that will help in identifying trends for different types of samples.
+5. What is our target variable? Do we predict all the output parameters together or one by one?
