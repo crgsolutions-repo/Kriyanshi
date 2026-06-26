@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# IDEs and editors
+.vscode/
+.vs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python environment variables
+.env
+
+# Temporary and tooling files
+tempCodeRunnerFile.py
+temp_tableau.json
+
+# Jupyter
+.ipynb_checkpoints/
